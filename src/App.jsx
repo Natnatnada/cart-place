@@ -1,7 +1,8 @@
+import { useState } from "react"
 import { Products } from "./components/Product"
-import {products} from "./mocks/products.json"
+import {products as initialProducts} from "./mocks/products.json"
 function App() {
-
+const [products]= useState(initialProducts)
   return (
    <Products products={products}/>
   )

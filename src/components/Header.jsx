@@ -2,7 +2,7 @@ import {Filters} from './Filters.jsx'
 export function Header() {
     return (
         <header>
-            <h1>Header</h1>
+            <h1>Header prueba</h1>
             <Filters/>
         </header>
     )
